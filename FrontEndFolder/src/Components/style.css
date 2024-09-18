@@ -1,0 +1,107 @@
+.loginPage {
+  background: url("Images/EMS");
+  background: linear-gradient(rgba(11, 11, 11, 0.5), rgba(10, 10, 10, 0.5)),
+    url("Images/EMS");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 100% 120%;
+}
+
+.loginForm {
+  background-color: rgba(1, 32, 93, 0.6);
+  color: white;
+}
+
+ul li :hover {
+  background-color: gray;
+}
+
+.employee_image {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.emp_det_image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+}
+
+/* Modernized Style for Login Page */
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: #f3f4f6;
+  margin: 0;
+  padding: 0;
+}
+
+.loginPage {
+  background-color: #f9fafb;
+}
+
+.loginForm {
+  background-color: #fff;
+  box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1);
+  padding: 2rem;
+  border-radius: 10px;
+}
+
+h2 {
+  text-align: center;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1.5rem;
+}
+
+label {
+  font-weight: 500;
+  color: #555;
+}
+
+.form-control {
+  background-color: #f3f4f6;
+  border: 1px solid #ccc;
+  padding: 10px;
+  border-radius: 8px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.form-control:focus {
+  border-color: #00b894;
+  box-shadow: 0 0 5px rgba(0, 184, 148, 0.4);
+}
+
+.btn-success {
+  background-color: #00b894;
+  border: none;
+  font-size: 16px;
+  padding: 10px 0;
+  transition: background-color 0.3s ease;
+}
+
+.btn-success:hover {
+  background-color: #01996b;
+}
+
+.text-warning {
+  text-align: center;
+  font-size: 14px;
+  color: #e74c3c;
+  margin-bottom: 1rem;
+}
+
+
+.loginPage {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.9
+  ); /* A light overlay for better visibility */
+}
+
+.loginForm {
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2); /* Add a subtle shadow to the login form */
+}
